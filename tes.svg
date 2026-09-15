@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 850" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #121212; }
+      .mono { font-family: 'Courier New', Courier, monospace; font-size: 15px; }
+      .bold { font-weight: bold; }
+      .blue { fill: #4a6ee0; }
+      .green { fill: #4caf50; }
+      .grey { fill: #9e9e9e; }
+      .white { fill: #ffffff; }
+      .yellow { fill: #ffeb3b; }
+      .cyan { fill: #00bcd4; }
+      .dark-blue-bg { fill: #3b5998; }
+      .cursor { fill: #ffffff; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" width="100%" height="100%" />
+
+  <!-- Prompt: python grab.py -->
+  <text class="mono green" x="30" y="30">$ python grab.py</text>
+
+  <!-- LANG337 Logo -->
+  <text x="30" y="95" font-family="'Courier New', Courier, monospace" font-size="65" font-weight="900" fill="#4a6ee0" stroke="#1a2e80" stroke-width="3" letter-spacing="2">LANG337</text>
+
+  <!-- Subtitle -->
+  <text class="mono grey" x="30" y="130">Domain Grabber Tool .go.id &amp; .id</text>
+
+  <!-- Menu -->
+  <text class="mono" x="30" y="165"><tspan class="green">[1]</tspan> <tspan class="white">.go.id Domain</tspan></text>
+  <text class="mono" x="30" y="190"><tspan class="green">[2]</tspan> <tspan class="white">.id Domain</tspan></text>
+  <text class="mono" x="30" y="215"><tspan class="green">[0]</tspan> <tspan class="white">Keluar</tspan></text>
+
+  <!-- Input 1 -->
+  <text class="mono" x="30" y="250"><tspan class="green">┌─[</tspan><tspan class="white">Langz337@menu</tspan><tspan class="green">]</tspan></text>
+  <text class="mono" x="30" y="270"><tspan class="green">└─➤</tspan> <tspan class="white">1</tspan></text>
+
+  <!-- Input Jumlah -->
+  <text class="mono" x="30" y="300"><tspan class="green">┌─[</tspan><tspan class="white">Jumlah</tspan><tspan class="green">]</tspan></text>
+  <text class="mono" x="30" y="320"><tspan class="green">└─➤</tspan> <tspan class="white">100</tspan></text>
+
+  <!-- Info Default Nama -->
+  <text class="mono" x="30" y="355"><tspan class="green">Nama default:</tspan> <tspan class="grey">langz337_goid_domain_20260915_145146.txt</tspan></text>
+  <text class="mono" x="30" y="375"><tspan class="green">Kosongkan untuk pakai nama default.</tspan></text>
+  <text class="mono" x="30" y="395"><tspan class="green">Bisa juga isi folder, contoh: hasil/goid.txt</tspan></text>
+
+  <!-- Input Nama File -->
+  <text class="mono" x="30" y="430"><tspan class="green">┌─[</tspan><tspan class="white">Nama File</tspan><tspan class="green">]</tspan></text>
+  <text class="mono" x="30" y="450"><tspan class="green">└─➤</tspan> <tspan class="white">5.txt</tspan></text>
+
+  <!-- Warning Timpa -->
+  <text class="mono" x="30" y="485"><tspan class="yellow">▲</tspan> <tspan class="grey">File '5.txt' sudah ada.</tspan></text>
+  <text class="mono" x="30" y="510"><tspan class="green">┌─[</tspan><tspan class="white">Timpa? (y/n)</tspan><tspan class="green">]</tspan></text>
+  <text class="mono" x="30" y="530"><tspan class="green">└─➤</tspan> <tspan class="white">y</tspan></text>
+
+  <!-- Success Banner -->
+  <rect class="dark-blue-bg" x="25" y="555" width="210" height="22" rx="3" />
+  <text class="mono white bold" x="30" y="571">✔ GRAB BERHASIL!</text>
+
+  <!-- Result Info -->
+  <text class="mono cyan" x="30" y="605">➤ Total  : 100</text>
+  <text class="mono cyan" x="30" y="625">➤ File   : /storage/emulated/0/5.txt</text>
+
+  <!-- Domain List -->
+  <text class="mono grey" x="30" y="660">Contoh 5 domain pertama:</text>
+  <text class="mono green" x="30" y="680">1. utara.jakarta.go.id</text>
+  <text class="mono green" x="30" y="700">2. mail.rtlh.acehtamiangkab.go.id</text>
+  <text class="mono green" x="30" y="720">3. kejari-palembang.go.id</text>
+  <text class="mono green" x="30" y="740">4. kecamatanjual.balangankab.go.id</text>
+  <text class="mono green" x="30" y="760">5. ppk-kp3k.kkp.go.id</text>
+  <text class="mono green" x="30" y="780">... dan 95 domain lainnya.</text>
+
+  <!-- End Prompt -->
+  <text class="mono cyan" x="30" y="820">Tekan ENTER untuk kembali...|</text>
+  <!-- Cursor Blink Simulation -->
+  <rect class="cursor" x="275" y="807" width="8" height="15" />
+</svg>
