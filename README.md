@@ -4,8 +4,11 @@ A lightweight, short, and fast Python script to grab domains hosted on a specifi
 
 # Execute
 pip install aiohttp
+
 git clone https://github.com/langz337/grabber-id
+
 cd grabber-id
+
 python grab.py
 
 # Disclaimer
